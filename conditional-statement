@@ -1,0 +1,90 @@
+                                            #conditional-statement
+
+#if-condition:-
+
+number = 5
+
+if number > 1:
+    print("The number is positive.")
+
+output:-The number is positive.
+
+#if-else condition:-
+
+number = -3
+
+if number > 0:
+    print("The number is positive.")
+else:
+    print("The number is not positive.")
+
+output:-The number is not positive.
+
+#nested_if_else condition:-
+
+age = 20
+
+if age >= 18:
+    if age < 21:
+        print("You are an adult but not old enough to drink alcohol in the US.")
+    else:
+        print("You are an adult and can drink alcohol in the US.")
+else:
+    print("You are not an adult.")
+
+    output:-You are an adult but not old enough to drink alcohol in the US.
+
+#if-elif statement:-
+
+number = -12
+
+if number > 5:
+    print("The number is positive.")
+elif number < 5:
+    print("The number is negative.")
+else:
+    print("The number is zero.")
+
+output:-The number is negative.
+
+#match statement:-
+
+value = 2
+
+match value:
+    case 1:
+        print("One")
+    case 2:
+        print("Two")
+    case 3:
+        print("Three")
+    case _:
+        print("Other")
+
+output:-Two
+
+  #animal = input("Enter a animal name: ")
+ match animal:
+     case "cat":
+         print("You chose a cat!")
+     case "dog":
+         print("You chose a dog!")
+     case "bird":
+         print("You chose a bird!")
+     case _:
+         print("Unknown animal!")
+
+output:-Enter a animal name: dog
+        You chose a dog!
+
+
+
+
+
+
+
+
+
+
+
+

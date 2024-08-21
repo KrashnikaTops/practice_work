@@ -1,0 +1,41 @@
+#END & SEP PARAMETER:-
+
+
+#END :-
+
+print("panjroliya",end="-")
+print("krashnika")
+
+output:-panjroliya-krashnika
+
+print("First line", end=" -- ")
+print("Second line")
+
+output:-First line -- Second line
+
+for i in range(5):
+    print(i, end=", ")
+
+output:-0,1,2,3,4
+
+
+#SEP :-
+
+print("krashnika","nisha","krishna","kesha","payal","priya",sep=",")
+
+output:-krashnika,nisha,krishna,kesha,payal,priya
+
+print("Line 1", "Line 2", "Line 3", sep="\n")
+
+output:-
+Line 1
+Line 2
+Line 3
+
+print("Red", "Green", "Blue", sep=" - ")
+
+output:-Red - Green - Blue
+
+
+
+
