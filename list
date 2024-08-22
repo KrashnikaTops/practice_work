@@ -1,0 +1,147 @@
+#List
+
+#check the list method.
+
+#my_list = []
+print(dir(my_list))
+
+#[append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']
+
+ 
+l =["krashnika","nisha","kesha","BK","krishu"]
+l[3]=("krash")
+print(l)
+
+output:-
+
+['krashnika', 'nisha', 'kesha', 'krash', 'krishu']
+
+l =["krashnika","nisha","kesha","BK","krishu"]
+if "kri" in l:
+    print("yes")
+else:
+    print("no")
+
+output:-no
+
+l =["krashnika","nisha","kesha","BK","krishu"]
+if "BK" in l:
+    print("yes")
+else:
+    print("no")
+
+    output:-yes
+
+#Append
+
+l =["krashnika","nisha","kesha","BK","krishu"]
+l.append("vishu")
+print(l)
+
+output:-['krashnika', 'nisha', 'kesha', 'BK', 'krishu', 'vishu']
+
+#clear
+
+l =["krashnika","nisha","kesha","BK","krishu"]
+l.clear()
+print(l)
+
+output:-[]
+
+#extend
+
+l =["krashnika","nisha","kesha","BK","krishu"]
+l.extend(["vishu","payal","kammo","tishi"])
+print(l)
+
+output:-['krashnika', 'nisha', 'kesha', 'BK', 'krishu', 'vishu', 'payal', 'kammo', 'tishi']
+
+#insert
+
+
+l =[1,2,3,4,5,6]
+l.insert(3,13)
+print(l)
+
+output:-[1, 2, 3, 13, 4, 5, 6]
+
+#pop
+
+l =[1,2,3,4,5,6]
+l.insert(3,13)
+print(l)
+
+output:-[1, 2, 3, 5, 6]
+
+#remove
+
+l =[1,2,3,4,5,6]
+l.remove(3,13)
+print(l)
+
+output:-[1, 2, 4, 5, 6]
+
+#reverse
+
+l =[1,2,3,4,5,6]
+l.reverse()
+print(l)
+
+output:-[6, 5, 4, 3, 2, 1]
+
+#sort
+
+l =[1,2,3,1,4,5,13,54,76,98,16]
+l.sort()
+print(l)
+
+output:-[1, 1, 2, 3, 4, 5, 13, 16, 54, 76, 98]
+
+
+#count
+
+items=['banana','apple','orange','mango','mango']
+print(items.count('mango'))
+print(items)
+
+output:-
+2
+['banana', 'apple', 'orange', 'mango', 'mango']
+
+
+#copy
+
+nums=[10,9,8,7,6,5,4,3,2,1]
+nums_copy=nums.copy()
+print(id(nums))
+
+output:-2459387671360
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
