@@ -71,7 +71,8 @@ l =[1,2,3,4,5,6]
 l.insert(3,13)
 print(l)
 
-output:-[1, 2, 3, 5, 6]
+output:-[1, 2, 3, 13, 4, 5, 6]
+
 
 #remove
 
