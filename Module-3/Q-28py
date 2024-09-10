@@ -1,0 +1,7 @@
+28. Write a Python program to remove an empty tuple(s) from a list of tuples. 
+
+ans :-
+
+list = [(1, 2, 1), ('a','b','c'),(), (3, 4), (), (5,)]
+list= [tup for tup in list if tup]
+print(list)
