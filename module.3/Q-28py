@@ -1,0 +1,8 @@
+list = [(1, 2, 1), ('a','b','c'),(), (3, 4), (), (5,)]
+list= [tup for tup in list if tup]
+print(list)
+
+
+list_tuple = [(1,2,3),(4,5),()]
+
+print(tuple(filter(None,list_tuple)))
